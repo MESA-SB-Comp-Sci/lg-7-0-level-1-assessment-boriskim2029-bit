@@ -10,9 +10,9 @@ What is the difference between a static unit like `px` and a responsive unit lik
 
 Describe what makes a unit responsive and why that matters when building a website.
 
+Static units like `px` are fixed in size, while repsponive units like `%` or `vw` change based on the screen or container size.
 
-
-
+This adaptability is crucial for ensuring a website looks and functions correctly across all devices from phone to laptop/desktop
 
 
 
@@ -35,7 +35,9 @@ Look at these two CSS rules:
 
 Explain what happens to the image on a small screen with each rule. Why does one behave better than the other?
 
+The image with the `px` will not change its size when its on a small screen, but with a `%`, it will change size with small screen
 
+The `%` is better because it functions properly on the small screen and looks better when on the website.
 
 
 
